@@ -84,3 +84,15 @@ input:focus {
 .col-6 > small {
   color: hotpink;
 }
+
+.records > li {
+  color: limegreen;
+}
+
+.shortdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: beige;
+}
