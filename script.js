@@ -1,6 +1,8 @@
 const startBtn = document.getElementById("btn");
 const records = document.getElementById("records");
 const loginBtn = document.getElementById("login");
+const userId = document.getElementById("userid");
+
 
 function timeToString(time) {
   let diffInHrs = time / 3600000;
@@ -35,9 +37,8 @@ function stopTimer() {
   endTime = Date.now();
   startBtn.style.display = "block";
   timeElapsed = endTime - startTime;
-  console.log(timeElapsed);
   let newRecord = document.createElement("li");
-  newRecord.innerHTML=timeToString(timeElapsed);
+  newRecord.innerHTML=userId.value + " " + timeToString(timeElapsed);
   records.appendChild(newRecord);
 }
 
