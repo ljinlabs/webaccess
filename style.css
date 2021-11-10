@@ -74,5 +74,5 @@ input:focus {
 }
 
 .ys {
-  width: 45px;
+  max-width: 50px;
 }
