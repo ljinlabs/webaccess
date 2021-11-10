@@ -72,3 +72,7 @@ input:focus {
 .blockquote > blockquote {
   color: darkslateblue;
 }
+
+.ys {
+  width: 45px;
+}
